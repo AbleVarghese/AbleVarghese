@@ -12,9 +12,10 @@ def api(path):
 repos = api("/users/AbleVarghese/repos?sort=pushed&per_page=15&type=owner")
 lines = []
 for r in repos:
-    if r["fork"] or r["name"] in ("AbleVarghese",) or r["archived"]: continue
+    if r["fork"] or r["name"] in ("AbleVarghese", ".github") or r["archived"]: continue
     when = r["pushed_at"][:10]
-    desc = (r["description"] or "").split("·")[0].split(" — ")[0].strip()[:70]
+    desc = (r["description"] or "").split("·")[0].split(" — ")[0].strip()
+    if len(desc) > 70: desc = desc[:70].rsplit(" ", 1)[0] + "…"
     lines.append(f'- **[{r["name"]}]({r["html_url"]})** — {desc} <sub>({when})</sub>')
     if len(lines) == 6: break
 stamp = datetime.date.today().isoformat()
