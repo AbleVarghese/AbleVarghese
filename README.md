@@ -16,7 +16,7 @@ own design. Everything below is running software: full stacks, payment rails, co
 *Computed from git history across 20 repositories. Script and methodology published here
 ([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)): every number is checkable.*
 
-**8,010 commits** · **1.27M lines of tracked code** · **2,412 test files** · **2,115 docs
+**8,010 commits** · **3.0M lines delivered** · **1.27M lines of tracked code** · **2,412 test files** · **2,115 docs
 (554K lines)** · **254 active build days** · **~2,900 hours**, 49% of them between 5pm and 2am,
 nights and weekends alongside a full-time payments-fintech role.
 
@@ -37,6 +37,15 @@ projects** (teams of 1 to 37), confidential by contract.*
   <source media="(prefers-color-scheme: dark)" srcset="assets/hours-dark.svg">
   <img alt="Commits by hour of day: 49 percent land between 5pm and 2am, peaking at 7pm" src="assets/hours-light.svg" width="100%">
 </picture>
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
+  <img alt="Lines of code delivered per day, October 2025 to August 2026: 3 million lines added, median 8,867 per active day, longest streak 81 consecutive days" src="assets/daily-lines-light.svg" width="100%">
+</picture>
+
+<sub>*Lines are attributed to commit dates. Work often lands days after it happens, so active-day
+counts are a floor and tall bars are batch landings, not single-day sprints.*</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">

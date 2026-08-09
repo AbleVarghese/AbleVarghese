@@ -22,3 +22,10 @@ fintech prototype) predates these histories and is excluded.
 2014–2023 is the owner's stated career record (consistent with the LinkedIn history), not part of
 the git-measured numbers above — those repositories are corporate/private and contractually
 confidential, so they cannot be published or independently audited here.
+
+**Lines delivered per day (3.0M added):** `git log --all --numstat` across the 15 locally audited
+repos, additions summed per author-date, dependency/lockfile/build paths excluded. Additions exceed
+final LOC (1.27M) because code gets rewritten; both numbers are stated. Commit dates lag the work
+they contain: multi-day efforts often land in one commit, so recorded active days (201) are a lower
+bound on true working days and single-day spikes are usually batch landings. The daily chart uses a
+square-root scale, stated on the chart, so median days stay visible next to the 194K peak.
