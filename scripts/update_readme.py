@@ -16,10 +16,10 @@ for r in repos:
     when = r["pushed_at"][:10]
     desc = (r["description"] or "").split("·")[0].split(" — ")[0].strip()
     if len(desc) > 70: desc = desc[:70].rsplit(" ", 1)[0] + "…"
-    lines.append(f'- **[{r["name"]}]({r["html_url"]})** — {desc} <sub>({when})</sub>')
+    lines.append(f'- **[{r["name"]}]({r["html_url"]})**: {desc} <sub>({when})</sub>')
     if len(lines) == 6: break
 stamp = datetime.date.today().isoformat()
-block = "\n".join(lines) + f"\n\n<sub>*Auto-generated {stamp} by [update_readme.py](scripts/update_readme.py) — this section is derived, never hand-edited.*</sub>"
+block = "\n".join(lines) + f"\n\n<sub>*Auto-generated {stamp} by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>"
 readme = open("README.md").read()
 new = re.sub(r"(<!-- shipped starts -->).*?(<!-- shipped ends -->)",
              rf"\1\n{block}\n\2", readme, flags=re.S)

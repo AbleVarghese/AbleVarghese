@@ -45,14 +45,14 @@ repositories that stay confidential by contract.*
 ## Recently shipped
 
 <!-- shipped starts -->
-- **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)** — Ops dashboard <sub>(2026-08-09)</sub>
-- **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)** — Portfolio <sub>(2026-08-09)</sub>
-- **[ios-claude-toolkit](https://github.com/AbleVarghese/ios-claude-toolkit)** — 22 battle-tested Claude Code skills for iOS/Swift development <sub>(2026-08-09)</sub>
-- **[keralora.com](https://github.com/AbleVarghese/keralora.com)** — Invite-only B2B spice trade, Kerala → Canada, with three-wall… <sub>(2026-08-08)</sub>
-- **[shelljolt.com](https://github.com/AbleVarghese/shelljolt.com)** — The cockpit for AI coding CLIs <sub>(2026-08-08)</sub>
-- **[argustest.dev](https://github.com/AbleVarghese/argustest.dev)** — iOS device monitoring + AI-assisted debugging via MCP for Claude Code… <sub>(2026-08-08)</sub>
+- **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: Ops dashboard <sub>(2026-08-09)</sub>
+- **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)**: Portfolio <sub>(2026-08-09)</sub>
+- **[ios-claude-toolkit](https://github.com/AbleVarghese/ios-claude-toolkit)**: 22 battle-tested Claude Code skills for iOS/Swift development <sub>(2026-08-09)</sub>
+- **[keralora.com](https://github.com/AbleVarghese/keralora.com)**: Invite-only B2B spice trade, Kerala → Canada, with three-wall… <sub>(2026-08-08)</sub>
+- **[shelljolt.com](https://github.com/AbleVarghese/shelljolt.com)**: The cockpit for AI coding CLIs <sub>(2026-08-08)</sub>
+- **[argustest.dev](https://github.com/AbleVarghese/argustest.dev)**: iOS device monitoring + AI-assisted debugging via MCP for Claude Code… <sub>(2026-08-08)</sub>
 
-<sub>*Auto-generated 2026-08-08 by [update_readme.py](scripts/update_readme.py) — this section is derived, never hand-edited.*</sub>
+<sub>*Auto-generated 2026-08-08 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
 <!-- shipped ends -->
 
 ## Platforms I've built and operate
