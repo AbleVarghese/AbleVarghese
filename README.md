@@ -98,7 +98,7 @@ the discipline underneath it is what those years built.*
 
 TDD-first · spec-before-code · structural prevention over instance fixes · single-source-of-truth
 documentation · evidence before conclusions. The whole doctrine is codified as machine-enforced
-rules my agent fleets follow — quality is a system property, not a habit.
+rules my agent fleets follow — quality is a system property, not a habit. 
 
 ---
 
