@@ -35,7 +35,18 @@ repositories that stay confidential by contract.*
   <img alt="Monthly commits across 20 repositories, December 2024 to August 2026, ramping from single digits to a peak of 2,871 in July 2026" src="assets/cadence-light.svg" width="100%">
 </picture>
 
-<sub>*Aug '26 is a partial month. Chart generated from the same audit data as the numbers above, no third-party widgets.*</sub>
+<sub>*Aug '26 is a partial month. All charts on this page are generated from the same audit data, no third-party widgets.*</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hours-dark.svg">
+  <img alt="Commits by hour of day: 49 percent land between 5pm and 2am, peaking at 7pm" src="assets/hours-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img alt="Lines of code by language: TypeScript 873K, Swift 184K, SQL 50K, Shell 47K, JavaScript 42K, Python 32K" src="assets/languages-light.svg" width="100%">
+</picture>
+
 
 **Currently:** Application Systems Analyst at an Interac-member fintech (payments infrastructure) · Founder, building in Toronto 🇨🇦
 **Always open to** interesting conversations: architecture, agentic engineering, fintech, or what you're building.
@@ -69,7 +80,12 @@ repositories that stay confidential by contract.*
 
 ## Engineering infrastructure I built to build them
 
-The portfolio above is shipped by a self-built **agentic engineering system**. This is the part most profiles can't show:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
+  <img alt="Diagram: one engineer operates an agentic engineering system (orchestration, adaptive concurrency, live monitoring, self-hosted CI, data supply) that ships ten production platforms" src="assets/system-light.svg" width="100%">
+</picture>
+
+The components, in brief:
 
 - **Multi-agent orchestration doctrine**: model-tiered routing (reason/build/research), adaptive concurrency with circuit breakers, orchestrator-gated acceptance where no agent's work merges until independently re-verified
 - **Scrapos**: standalone data-supply engine. 64 scrapers, queue-based pipeline, self-healing, drift-gated auto-redeploy
