@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Able Varghese — Application Architect">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Able Varghese, Application Architect">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fbfaf7"/>
@@ -14,7 +14,7 @@
   <rect x="0" y="0" width="1280" height="2" fill="#c9c2b2"/>
   <rect x="64" y="78" width="44" height="3" fill="#b97a17"/>
   <text x="64" y="132" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="6" fill="#20242a">ABLE VARGHESE</text>
-  <text x="64" y="168" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="1.2" fill="#565f6b">Application architect — complete platforms, shipped end to end</text>
+  <text x="64" y="168" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="1.2" fill="#565f6b">Application architect. Complete platforms, shipped end to end</text>
   <text x="64" y="228" font-family="SF Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.5" fill="#7d8794">10 platforms &#183; 8,010 commits &#183; 1.27M lines &#183; 2,412 test files &#183; built with agentic engineering</text>
   <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#a7a294" text-anchor="end">
     <text x="1216" y="100">licentric</text>

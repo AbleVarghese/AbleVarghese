@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Able Varghese — Application Architect. Ships production platforms end-to-end." src="assets/banner-light.svg" width="100%">
+  <img alt="Able Varghese, Application Architect. Ships production platforms end to end." src="assets/banner-light.svg" width="100%">
 </picture>
 
 ### Application architect. I ship complete platforms, solo, at production grade.
