@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="210" viewBox="0 0 1280 210" role="img" aria-label="Monthly commits across 20 repositories, December 2024 to August 2026, peaking at 2,871">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f3f1ec"/></linearGradient><clipPath id="base"><rect x="0" y="0" width="1280" height="168"/></clipPath></defs>
+<rect width="1280" height="210" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="209" fill="none" stroke="#d8d3c8"/>
+<text x="64" y="34" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1" fill="#20242a">MONTHLY COMMITS</text>
+<text x="246" y="34" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">20 repositories &#183; git log, all branches</text>
+<line x1="64" y1="168" x2="1216" y2="168" stroke="#e6e2d9" stroke-width="1"/>
+<g clip-path="url(#base)"><rect x="76.4" y="165.0" width="30" height="7.0" rx="3" fill="#b97a17"/></g>
+<rect x="131.3" y="166" width="30" height="2" fill="#cdc7ba"/>
+<rect x="186.1" y="166" width="30" height="2" fill="#cdc7ba"/>
+<rect x="241.0" y="166" width="30" height="2" fill="#cdc7ba"/>
+<rect x="295.9" y="166" width="30" height="2" fill="#cdc7ba"/>
+<rect x="350.7" y="166" width="30" height="2" fill="#cdc7ba"/>
+<rect x="405.6" y="166" width="30" height="2" fill="#cdc7ba"/>
+<g clip-path="url(#base)"><rect x="460.4" y="163.8" width="30" height="8.2" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="515.3" y="165.0" width="30" height="7.0" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="570.1" y="165.0" width="30" height="7.0" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="625.0" y="150.8" width="30" height="21.2" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="679.9" y="163.6" width="30" height="8.4" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="734.7" y="165.0" width="30" height="7.0" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="789.6" y="153.3" width="30" height="18.7" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="844.4" y="145.4" width="30" height="26.6" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="899.3" y="146.5" width="30" height="25.5" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="954.1" y="164.5" width="30" height="7.5" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="1009.0" y="138.0" width="30" height="34.0" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="1063.9" y="87.3" width="30" height="84.7" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="1118.7" y="50.0" width="30" height="122.0" rx="3" fill="#b97a17"/></g>
+<g clip-path="url(#base)"><rect x="1173.6" y="160.5" width="30" height="11.5" rx="3" fill="#b97a17"/></g>
+<text x="1133.7" y="40" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#20242a" text-anchor="middle">2,871</text>
+<text x="91.4" y="190" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11" fill="#7d8794" text-anchor="middle">Dec &#8217;24</text>
+<text x="475.4" y="190" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11" fill="#7d8794" text-anchor="middle">Jul &#8217;25</text>
+<text x="804.6" y="190" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11" fill="#7d8794" text-anchor="middle">Jan &#8217;26</text>
+<text x="1188.6" y="190" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11" fill="#7d8794" text-anchor="middle">Aug &#8217;26*</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Able Varghese — Application Architect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101418"/>
+      <stop offset="1" stop-color="#0b0e11"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1a2027" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)" opacity="0.55"/>
+  <rect x="0.5" y="0.5" width="1279" height="299" fill="none" stroke="#232b34" stroke-width="1"/>
+  <rect x="0" y="0" width="1280" height="2" fill="#2e3a45"/>
+  <rect x="64" y="78" width="44" height="3" fill="#e8a33d"/>
+  <text x="64" y="132" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="6" fill="#eceff2">ABLE VARGHESE</text>
+  <text x="64" y="168" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="1.2" fill="#9aa7b3">Application architect — complete platforms, shipped end to end</text>
+  <text x="64" y="228" font-family="SF Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.5" fill="#6b7885">10 platforms &#183; 8,010 commits &#183; 1.27M lines &#183; 2,412 test files &#183; built with agentic engineering</text>
+  <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#4d5966" text-anchor="end">
+    <text x="1216" y="100">licentric</text>
+    <text x="1216" y="122">lawyerserved</text>
+    <text x="1216" y="144">solveright &#183; solvemax</text>
+    <text x="1216" y="166">argustest &#183; shelljolt</text>
+    <text x="1216" y="188">keralora &#183; flowen</text>
+    <text x="1216" y="210" fill="#e8a33d">toronto, canada</text>
+  </g>
+</svg>
