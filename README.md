@@ -26,6 +26,7 @@ deliver. Everything on this page is live, running software, and every number on 
 computed from git history, not claimed.
 
 **Now:** Application Systems Analyst at an Interac-member fintech · Founder, Toronto 🇨🇦
+
 **Say hello:** architecture, agentic engineering, fintech → **able.varghese@hotmail.com**
 
 ---
