@@ -7,28 +7,24 @@
 
 *I like building complete production systems, and the engineering machines that build them.*
 
-Software engineer since 2014, with banking-grade delivery for CIBC and payments fintechs behind me.
-That discipline now runs a portfolio of **10+ products built in under two years**: architected,
-developed, tested, and operated using **agentic AI engineering systems** I designed myself. Every
-platform below is real, running software. Full stacks, payment rails, compliance engines, test
-suites in the thousands.
+Software engineer since 2014. Banking-grade delivery at CIBC and payments fintechs. Since 2024:
+**10+ products in under two years**, built end to end with **agentic AI engineering systems** of my
+own design. Everything below is running software: full stacks, payment rails, compliance engines.
 
 ## The portfolio, measured
 
-*Computed from git history across 20 original repositories. The audit script and methodology
-are published in this repo ([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)) so every number is verifiable.*
+*Computed from git history across 20 repositories. Script and methodology published here
+([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)): every number is checkable.*
 
 **8,010 commits** · **1.27M lines of tracked code** · **2,412 test files** · **2,115 docs
 (554K lines)** · **254 active build days** · **~2,900 hours**, 49% of them between 5pm and 2am,
 nights and weekends alongside a full-time payments-fintech role.
 
-Classical software economics (COCOMO-81) prices this codebase at **~364 person-years** of
-conventional effort. It was shipped by one person with a self-built agentic engineering system.
+COCOMO-81 prices this codebase at **~364 person-years**. One person shipped it in ~2,900 hours.
 **That multiplier is the point.**
 
-*And this is only the public-era ledger. 2014–2023 adds an estimated **5,000+ commits across 20+
-enterprise projects**, in teams from solo to 37 people, living in corporate and private
-repositories that stay confidential by contract.*
+*The public ledger only. 2014–2023 adds an estimated **5,000+ commits across 20+ enterprise
+projects** (teams of 1 to 37), confidential by contract.*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cadence-dark.svg">
@@ -49,7 +45,7 @@ repositories that stay confidential by contract.*
 
 
 **Currently:** Application Systems Analyst at an Interac-member fintech (payments infrastructure) · Founder, building in Toronto 🇨🇦
-**Always open to** interesting conversations: architecture, agentic engineering, fintech, or what you're building.
+**Open to** sharp conversations: architecture, agentic engineering, fintech.
 
 ---
 
@@ -85,7 +81,7 @@ repositories that stay confidential by contract.*
   <img alt="Diagram: one engineer operates an agentic engineering system (orchestration, adaptive concurrency, live monitoring, self-hosted CI, data supply) that ships ten production platforms" src="assets/system-light.svg" width="100%">
 </picture>
 
-The components, in brief:
+The machine that builds the products:
 
 - **Multi-agent orchestration doctrine**: model-tiered routing (reason/build/research), adaptive concurrency with circuit breakers, orchestrator-gated acceptance where no agent's work merges until independently re-verified
 - **Scrapos**: standalone data-supply engine. 64 scrapers, queue-based pipeline, self-healing, drift-gated auto-redeploy
@@ -106,15 +102,14 @@ The components, in brief:
 **Spine Hedge** (2021–), AI-powered fintech project: the bridge between my trading years and the platform portfolio above
 **Earlier**: Mechanical Engineering @ Carleton · Software Engineering @ Centennial · NASA CanSat & Lunabotics team lead · conference speaker on engineering entrepreneurship
 
-*A decade of enterprise work before 2024, for CIBC and other institutions and clients, stays
-confidential, per contract and by principle. The portfolio above is what I can show publicly;
-the discipline underneath it is what those years built.*
+*Enterprise work before 2024 stays confidential, by contract and by principle. What those years
+built is the discipline underneath everything above.*
 
 ## How I work
 
-TDD-first · spec-before-code · structural prevention over instance fixes · single-source-of-truth
-documentation · evidence before conclusions. The whole doctrine is codified as machine-enforced
-rules my agent fleets follow. Quality is a system property, not a habit.
+TDD-first · spec-before-code · structural fixes over patches · one source of truth · evidence
+before conclusions. Codified as machine-enforced rules my agent fleets follow.
+**Quality is a system property, not a habit.**
 
 ---
 
