@@ -105,7 +105,7 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 **Spine Hedge** (2021–), AI-powered fintech project: the bridge between my trading years and the platform portfolio above
 **Earlier**: Mechanical Engineering @ Carleton · Software Engineering @ Centennial · NASA CanSat & Lunabotics team lead · conference speaker on engineering entrepreneurship
 
-*Enterprise work before 2024 stays confidential, by contract and by principle. What those years
+*Enterprise work before 2022 stays confidential, by contract and by principle. What those years
 built is the discipline underneath everything above.*
 
 ## How I work
