@@ -27,6 +27,14 @@ COCOMO-81 prices this codebase at **~364 person-years**. One person shipped it i
 projects** (teams of 1 to 37), confidential by contract.*
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
+  <img alt="Lines of code delivered per day, October 2025 to August 2026: 3 million lines added, median 8,867 per active day, longest streak 81 consecutive days" src="assets/daily-lines-light.svg" width="100%">
+</picture>
+
+<sub>*Lines are attributed to commit dates. Work often lands days after it happens, so active-day
+counts are a floor and tall bars are batch landings, not single-day sprints.*</sub>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cadence-dark.svg">
   <img alt="Monthly commits across 20 repositories, December 2024 to August 2026, ramping from single digits to a peak of 2,871 in July 2026" src="assets/cadence-light.svg" width="100%">
 </picture>
@@ -38,14 +46,6 @@ projects** (teams of 1 to 37), confidential by contract.*
   <img alt="Commits by hour of day: 49 percent land between 5pm and 2am, peaking at 7pm" src="assets/hours-light.svg" width="100%">
 </picture>
 
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
-  <img alt="Lines of code delivered per day, October 2025 to August 2026: 3 million lines added, median 8,867 per active day, longest streak 81 consecutive days" src="assets/daily-lines-light.svg" width="100%">
-</picture>
-
-<sub>*Lines are attributed to commit dates. Work often lands days after it happens, so active-day
-counts are a floor and tall bars are batch landings, not single-day sprints.*</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
