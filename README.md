@@ -68,15 +68,10 @@ projects** (teams of 1 to 37), confidential by contract.*
   <img alt="Lines of code delivered per day, October 2025 to August 2026: 3 million lines added, median 8,867 per active day, longest streak 81 consecutive days" src="assets/daily-lines-light.svg" width="100%">
 </picture>
 
-<sub>*Lines are attributed to commit dates. Work often lands days after it happens, so active-day
-counts are a floor and tall bars are batch landings, not single-day sprints.*</sub>
+<sub>*Lines attribute to commit dates: work often lands days after it happens, so active-day counts
+are a floor and tall bars are batch landings. Aug '26 is a partial month. Every chart on this page
+is generated from the audit data itself, no third-party widgets.*</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cadence-dark.svg">
-  <img alt="Monthly commits across 20 repositories, December 2024 to August 2026, ramping from single digits to a peak of 2,871 in July 2026" src="assets/cadence-light.svg" width="100%">
-</picture>
-
-<sub>*Aug '26 is a partial month. All charts on this page are generated from the same audit data, no third-party widgets.*</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hours-dark.svg">
