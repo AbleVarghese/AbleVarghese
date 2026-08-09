@@ -3,16 +3,30 @@
   <img alt="Able Varghese, Application Architect. Ships production platforms end to end." src="assets/banner-light.svg" width="100%">
 </picture>
 
-### Application architect. I ship complete platforms, solo, at production grade.
+<div align="center">
 
-*I like building complete production systems, and the engineering machines that build them.*
+# I ship complete platforms. Solo. At production grade.
 
-Software engineer since 2014. Banking-grade delivery at CIBC and payments fintechs. Since 2024:
-**10+ products in under two years**, built end to end with **agentic AI engineering systems** of my
-own design. Everything below is running software: full stacks, payment rails, compliance engines.
+### **Ten platforms &nbsp;·&nbsp; twenty months &nbsp;·&nbsp; one engineer**
 
-**Currently:** Application Systems Analyst at an Interac-member fintech (payments infrastructure) · Founder, building in Toronto 🇨🇦
-**Open to** sharp conversations: architecture, agentic engineering, fintech.
+*Most engineers ship features. I build the whole machine,*
+*and the machine that builds the machine.*
+
+<br>
+
+`full stacks` &nbsp; `payment rails` &nbsp; `compliance engines` &nbsp; `anonymity architectures` &nbsp; `agent fleets`
+
+</div>
+
+<br>
+
+**The short version:** a decade of banking-grade fintech (CIBC, Interac-member payment rails),
+converted into an **agentic AI engineering system** that lets one person deliver what teams
+deliver. Everything on this page is live, running software, and every number on it is
+computed from git history, not claimed.
+
+**Now:** Application Systems Analyst at an Interac-member fintech · Founder, Toronto 🇨🇦
+**Say hello:** architecture, agentic engineering, fintech → **able.varghese@hotmail.com**
 
 ---
 
