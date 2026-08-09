@@ -16,7 +16,7 @@ own design. Everything below is running software: full stacks, payment rails, co
 *Computed from git history across 20 repositories. Script and methodology published here
 ([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)): every number is checkable.*
 
-**8,010 commits** · **3.0M lines delivered** · **1.27M lines of tracked code** · **2,412 test files** · **2,115 docs
+**3.0M lines delivered** · **8,010 commits** · **1.27M lines in production** · **2,412 test files** · **2,115 docs
 (554K lines)** · **254 active build days** · **~2,900 hours**, 49% of them between 5pm and 2am,
 nights and weekends alongside a full-time payments-fintech role.
 
