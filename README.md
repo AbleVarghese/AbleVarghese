@@ -61,7 +61,8 @@ COCOMO-81 prices this codebase at **~364 person-years**. One person shipped it i
 **That multiplier is the point.**
 
 *The public ledger only. 2014–2023 adds an estimated **5,000+ commits across 20+ enterprise
-projects** (teams of 1 to 37), confidential by contract.*
+projects** (teams of 1 to 37), confidential by contract, much of it in corporate systems that
+never touched GitHub.*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
