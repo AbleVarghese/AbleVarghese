@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="258" viewBox="0 0 1280 258" role="img" aria-label="3 million lines delivered, 10 platforms, about 364 COCOMO person-years, 8,010 commits, 1.27 million lines in production, 2,412 test files, 2,115 docs, 254 active days, about 2,900 hours with 49 percent between 5pm and 2am">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f3f1ec"/></linearGradient></defs>
+<rect width="1280" height="258" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="257" fill="none" stroke="#d8d3c8"/>
+<text x="64" y="92" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="54" font-weight="700" fill="#b97a17">3.0M</text>
+<text x="64" y="118" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7d8794">lines delivered</text>
+<text x="454" y="92" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="54" font-weight="700" fill="#b97a17">10</text>
+<text x="454" y="118" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7d8794">platforms in production</text>
+<text x="844" y="92" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="54" font-weight="700" fill="#b97a17">&#8776;364</text>
+<text x="844" y="118" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7d8794">COCOMO person-years</text>
+<line x1="64" y1="146" x2="1216" y2="146" stroke="#e2ddd2"/>
+<text x="64" y="196" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#20242a">8,010</text>
+<text x="64" y="218" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">commits</text>
+<text x="359" y="196" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#20242a">1.27M</text>
+<text x="359" y="218" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">lines in production</text>
+<text x="654" y="196" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#20242a">2,412</text>
+<text x="654" y="218" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">test files</text>
+<text x="949" y="196" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#20242a">554K</text>
+<text x="949" y="218" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">doc lines &#183; 2,115 files</text>
+<text x="64" y="242" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#7d8794">254 active build days &#183; ~2,900 hours &#183; 49% of commits between 5pm and 2am, alongside a full-time fintech role</text>
+</svg>

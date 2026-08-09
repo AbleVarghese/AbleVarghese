@@ -53,9 +53,10 @@ The machine that builds the products:
 *Computed from git history across 20 repositories. Script and methodology published here
 ([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)): every number is checkable.*
 
-**3.0M lines delivered** · **8,010 commits** · **1.27M lines in production** · **2,412 test files** · **2,115 docs
-(554K lines)** · **254 active build days** · **~2,900 hours**, 49% of them between 5pm and 2am,
-nights and weekends alongside a full-time payments-fintech role.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="3.0M lines delivered, 10 platforms in production, about 364 COCOMO person-years. 8,010 commits, 1.27M lines in production, 2,412 test files, 554K doc lines. 254 active days, about 2,900 hours, 49 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
+</picture>
 
 COCOMO-81 prices this codebase at **~364 person-years**. One person shipped it in ~2,900 hours.
 **That multiplier is the point.**
