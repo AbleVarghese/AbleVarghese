@@ -104,14 +104,14 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 ## Recently shipped
 
 <!-- shipped starts -->
+- **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: Ops dashboard: monitors a project's git/tests/agents/lanes, serves at… <sub>(2026-08-15)</sub>
 - **[Provenance-First-Wiki](https://github.com/AbleVarghese/Provenance-First-Wiki)**: Why the LLM Wiki pattern breaks past 1,000 files, and the five… <sub>(2026-08-10)</sub>
 - **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)**: Portfolio: ablevarghese.github.io <sub>(2026-08-09)</sub>
 - **[keralora.com](https://github.com/AbleVarghese/keralora.com)**: Invite-only B2B spice trade, Kerala → Canada, with three-wall… <sub>(2026-08-09)</sub>
 - **[shelljolt.com](https://github.com/AbleVarghese/shelljolt.com)**: The cockpit for AI coding CLIs: cost, context, limits, model in one… <sub>(2026-08-09)</sub>
 - **[argustest.dev](https://github.com/AbleVarghese/argustest.dev)**: iOS device monitoring + AI-assisted debugging via MCP for Claude Code… <sub>(2026-08-09)</sub>
-- **[solveright.ai](https://github.com/AbleVarghese/solveright.ai)**: Decision intelligence: 155 frameworks, deterministic scoring,… <sub>(2026-08-09)</sub>
 
-<sub>*Auto-generated 2026-08-14 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
+<sub>*Auto-generated 2026-08-15 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
 <!-- shipped ends -->
 
 ## Before this
