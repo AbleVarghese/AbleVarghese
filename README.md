@@ -107,7 +107,7 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 - **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: Ops dashboard: monitors a project's git/tests/agents/lanes, serves at… <sub>(2026-08-16)</sub>
 - **[Provenance-First-Wiki](https://github.com/AbleVarghese/Provenance-First-Wiki)**: Why the LLM Wiki pattern breaks past 1,000 files, and the five… <sub>(2026-08-10)</sub>
 
-<sub>*Auto-generated 2026-08-16 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
+<sub>*Auto-generated 2026-08-17 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
 <!-- shipped ends -->
 
 ## Before this
