@@ -85,7 +85,7 @@ The machine that builds the products:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="3.0M lines delivered, 10 platforms in production, about 364 COCOMO person-years. 8,010 commits, 1.27M lines in production, 2,412 test files, 554K doc lines. 254 active days, about 2,900 hours, 49 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
+  <img alt="5.2M lines delivered, 10 platforms shipped, about 515 COCOMO person-years. 8,533 commits, 1.77M lines in production, 2,553 test files, 716K doc lines. 262 active days, about 3,050 hours, 49 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
 </picture>
 
 COCOMO-81 prices this codebase at **~515 person-years**. One person shipped it in ~3,050 hours.
@@ -97,7 +97,7 @@ never touched GitHub.*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
-  <img alt="Lines of code delivered per day, October 2025 to August 2026: 3 million lines added, median 8,867 per active day, longest streak 81 consecutive days" src="assets/daily-lines-light.svg" width="100%">
+  <img alt="Lines of code delivered per day, December 2024 to August 2026: 5.2 million lines added, median 9,964 per active day, longest streak 86 consecutive days" src="assets/daily-lines-light.svg" width="100%">
 </picture>
 
 <sub>*Lines attribute to commit dates: work often lands days after it happens, so active-day counts
@@ -113,7 +113,7 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img alt="Lines of code by language: TypeScript 873K, Swift 184K, SQL 50K, Shell 47K, JavaScript 42K, Python 32K" src="assets/languages-light.svg" width="100%">
+  <img alt="Lines of code by language: TypeScript 1225K, Swift 184K, JavaScript 127K, Shell 68K, Python 66K, SQL 50K" src="assets/languages-light.svg" width="100%">
 </picture>
 
 ## Recently shipped
