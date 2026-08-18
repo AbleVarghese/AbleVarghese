@@ -1,67 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="470" viewBox="0 0 1280 470" role="img" aria-label="Diagram: an agentic engineering system of orchestration, concurrency control, monitoring, CI and data supply drives ten production platforms">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="468" viewBox="0 0 1280 468" role="img" aria-label="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 8,533 commits, about 3,050 hours, COCOMO-priced at about 515 person-years.">
 <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101418"/><stop offset="1" stop-color="#0b0e11"/></linearGradient></defs>
-<rect width="1280" height="470" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="469" fill="none" stroke="#232b34"/>
-<text x="64" y="34" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1" fill="#eceff2">HOW ONE PERSON SHIPS TEN PLATFORMS</text>
-<text x="64" y="54" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#6b7885">the agentic engineering system underneath the portfolio</text>
-<rect x="64" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="120" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">Licentric</text>
-<rect x="184" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="240" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">LawyerServed</text>
-<rect x="303" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="359" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">SolveRight</text>
-<rect x="423" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="479" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">solvemax</text>
-<rect x="542" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="598" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">ArgusTest</text>
-<rect x="662" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="718" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">ShellJolt</text>
-<rect x="782" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="838" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">Keralora</text>
-<rect x="901" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="957" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">Flowen</text>
-<rect x="1021" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="1077" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">Devrule.ai</text>
-<rect x="1140" y="84" width="112" height="46" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="1196" y="112" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#eceff2" text-anchor="middle">Dwellium</text>
-<line x1="120" y1="186" x2="120" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 116 138 L 120 130 L 124 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="240" y1="186" x2="240" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 236 138 L 240 130 L 244 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="359" y1="186" x2="359" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 355 138 L 359 130 L 363 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="479" y1="186" x2="479" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 475 138 L 479 130 L 483 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="598" y1="186" x2="598" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 594 138 L 598 130 L 602 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="718" y1="186" x2="718" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 714 138 L 718 130 L 722 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="838" y1="186" x2="838" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 834 138 L 838 130 L 842 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="957" y1="186" x2="957" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 953 138 L 957 130 L 961 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="1077" y1="186" x2="1077" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 1073 138 L 1077 130 L 1081 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<line x1="1196" y1="186" x2="1196" y2="130" stroke="#6b7885" stroke-width="1.2" marker-end="none"/>
-<path d="M 1192 138 L 1196 130 L 1200 138" fill="none" stroke="#6b7885" stroke-width="1.2"/>
-<rect x="64" y="186" width="1152" height="130" rx="6" fill="#151a20" stroke="#6a9fd8" stroke-width="1.6"/>
-<text x="88" y="216" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1" fill="#6a9fd8">AGENTIC ENGINEERING SYSTEM</text>
-<rect x="88" y="234" width="218" height="60" rx="4" fill="none" stroke="#232b34"/>
-<text x="100" y="258" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#eceff2">Orchestration doctrine</text>
-<text x="100" y="278" font-family="SF Mono, Menlo, Consolas, monospace" font-size="10.5" fill="#6b7885">tiered agents, gated merges</text>
-<rect x="315" y="234" width="218" height="60" rx="4" fill="none" stroke="#232b34"/>
-<text x="327" y="258" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#eceff2">Adaptive concurrency</text>
-<text x="327" y="278" font-family="SF Mono, Menlo, Consolas, monospace" font-size="10.5" fill="#6b7885">circuit breakers, backoff</text>
-<rect x="542" y="234" width="218" height="60" rx="4" fill="none" stroke="#232b34"/>
-<text x="554" y="258" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#eceff2">ops-dashboard</text>
-<text x="554" y="278" font-family="SF Mono, Menlo, Consolas, monospace" font-size="10.5" fill="#6b7885">live fleet monitor, MIT</text>
-<rect x="769" y="234" width="218" height="60" rx="4" fill="none" stroke="#232b34"/>
-<text x="781" y="258" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#eceff2">local-gitlab</text>
-<text x="781" y="278" font-family="SF Mono, Menlo, Consolas, monospace" font-size="10.5" fill="#6b7885">self-hosted $0 CI/CD</text>
-<rect x="996" y="234" width="218" height="60" rx="4" fill="none" stroke="#232b34"/>
-<text x="1008" y="258" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#eceff2">Scrapos</text>
-<text x="1008" y="278" font-family="SF Mono, Menlo, Consolas, monospace" font-size="10.5" fill="#6b7885">64-scraper data supply</text>
-<text x="64" y="352" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.5" fill="#6b7885">operated by</text>
-<rect x="64" y="366" width="1152" height="56" rx="6" fill="none" stroke="#e8a33d" stroke-width="1.4"/>
-<text x="88" y="392" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#eceff2">ONE ENGINEER</text>
-<text x="88" y="410" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.5" fill="#6b7885">8,533 commits &#183; ~3,050 hours &#183; nights + weekends &#183; COCOMO prices the output at ~515 person-years</text>
+<rect width="1280" height="468" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="467" fill="none" stroke="#232b34"/>
+<text x="64" y="40" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#eceff2">HOW ONE PERSON SHIPS TEN PLATFORMS</text>
+<text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">the agentic engineering system underneath the portfolio</text>
+<rect x="64" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="120" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">Licentric</text>
+<rect x="184" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="240" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">LawyerServed</text>
+<rect x="303" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="359" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">SolveRight</text>
+<rect x="423" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="479" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">solvemax</text>
+<rect x="542" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="598" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">ArgusTest</text>
+<rect x="662" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="718" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">ShellJolt</text>
+<rect x="782" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="838" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">Keralora</text>
+<rect x="901" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="957" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">Flowen</text>
+<rect x="1021" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="1077" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">Devrule.ai</text>
+<rect x="1140" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="1196" y="122" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#eceff2" text-anchor="middle">Dwellium</text>
+<line x1="120" y1="196" x2="120" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 116 148 L 120 140 L 124 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="240" y1="196" x2="240" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 236 148 L 240 140 L 244 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="359" y1="196" x2="359" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 355 148 L 359 140 L 363 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="479" y1="196" x2="479" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 475 148 L 479 140 L 483 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="598" y1="196" x2="598" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 594 148 L 598 140 L 602 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="718" y1="196" x2="718" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 714 148 L 718 140 L 722 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="838" y1="196" x2="838" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 834 148 L 838 140 L 842 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="957" y1="196" x2="957" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 953 148 L 957 140 L 961 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="1077" y1="196" x2="1077" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 1073 148 L 1077 140 L 1081 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<line x1="1196" y1="196" x2="1196" y2="140" stroke="#93a0ac" stroke-width="1.2"/>
+<path d="M 1192 148 L 1196 140 L 1200 148" fill="none" stroke="#93a0ac" stroke-width="1.2"/>
+<rect x="64" y="196" width="1152" height="138" rx="6" fill="#151a20" stroke="#6a9fd8" stroke-width="1.6"/>
+<text x="88" y="228" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#6a9fd8">AGENTIC ENGINEERING SYSTEM</text>
+<rect x="88" y="244" width="218" height="66" rx="4" fill="none" stroke="#232b34"/>
+<text x="100" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff2">Orchestration doctrine</text>
+<text x="100" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">tiered agents, gated merges</text>
+<rect x="315" y="244" width="218" height="66" rx="4" fill="none" stroke="#232b34"/>
+<text x="327" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff2">Adaptive concurrency</text>
+<text x="327" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">circuit breakers, backoff</text>
+<rect x="542" y="244" width="218" height="66" rx="4" fill="none" stroke="#232b34"/>
+<text x="554" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff2">ops-dashboard</text>
+<text x="554" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">live fleet monitor, MIT</text>
+<rect x="769" y="244" width="218" height="66" rx="4" fill="none" stroke="#232b34"/>
+<text x="781" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff2">local-gitlab</text>
+<text x="781" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">self-hosted $0 CI/CD</text>
+<rect x="996" y="244" width="218" height="66" rx="4" fill="none" stroke="#232b34"/>
+<text x="1008" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff2">Scrapos</text>
+<text x="1008" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">64-scraper data supply</text>
+<text x="64" y="364" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">operated by</text>
+<rect x="64" y="378" width="1152" height="62" rx="6" fill="none" stroke="#e8a33d" stroke-width="1.4"/>
+<text x="88" y="406" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#eceff2">ONE ENGINEER</text>
+<text x="88" y="428" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">8,533 commits &#183; ~3,050 hours &#183; nights + weekends &#183; COCOMO prices the output at ~515 person-years</text>
 </svg>
