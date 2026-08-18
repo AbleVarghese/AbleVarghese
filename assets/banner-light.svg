@@ -1,27 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Able Varghese, Application Architect">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fbfaf7"/>
-      <stop offset="1" stop-color="#f3f1ec"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#e6e2d9" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="1280" height="300" fill="url(#bg)"/>
-  <rect width="1280" height="300" fill="url(#grid)" opacity="0.6"/>
-  <rect x="0.5" y="0.5" width="1279" height="299" fill="none" stroke="#d8d3c8" stroke-width="1"/>
-  <rect x="0" y="0" width="1280" height="2" fill="#c9c2b2"/>
-  <rect x="64" y="78" width="44" height="3" fill="#b97a17"/>
-  <text x="64" y="132" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="6" fill="#20242a">ABLE VARGHESE</text>
-  <text x="64" y="168" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="1.2" fill="#565f6b">Application architect. Complete platforms, shipped end to end</text>
-  <text x="64" y="228" font-family="SF Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.5" fill="#7d8794">5.2M lines delivered &#183; 10 platforms &#183; 8,533 commits &#183; 2,553 test files &#183; agentic engineering</text>
-  <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" fill="#a7a294" text-anchor="end">
-    <text x="1216" y="100">licentric</text>
-    <text x="1216" y="122">lawyerserved</text>
-    <text x="1216" y="144">solveright &#183; solvemax</text>
-    <text x="1216" y="166">argustest &#183; shelljolt</text>
-    <text x="1216" y="188">keralora &#183; flowen</text>
-    <text x="1216" y="210" fill="#b97a17">toronto, canada</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Able Varghese, Application Architect. Complete platforms, shipped end to end. 5.2M lines delivered, 10 platforms, 8,533 commits, 2,553 test files, agentic engineering.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f3f1ec"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#e6e2d9" stroke-width="1"/></pattern></defs>
+<rect width="1280" height="300" fill="url(#bg)"/><rect width="1280" height="300" fill="url(#grid)" opacity="0.55"/>
+<rect x="0.5" y="0.5" width="1279" height="299" fill="none" stroke="#d8d3c8" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="2" fill="#c9c2b2"/>
+<rect x="64" y="74" width="52" height="4" fill="#b97a17"/>
+<text x="64" y="132" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="6" fill="#20242a">ABLE VARGHESE</text>
+<text x="64" y="172" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="600" letter-spacing="0.6" fill="#3d454e">Application architect. Complete platforms, shipped end to end</text>
+<text x="64" y="232" font-family="SF Mono, Menlo, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="0.3" fill="#5b6470">5.2M lines delivered &#183; 10 platforms &#183; 8,533 commits &#183; 2,553 test files &#183; agentic engineering</text>
+<g font-family="SF Mono, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#8a8479" text-anchor="end">
+<text x="1216" y="100">licentric</text>
+<text x="1216" y="123">lawyerserved</text>
+<text x="1216" y="146">solveright &#183; solvemax</text>
+<text x="1216" y="169">argustest &#183; shelljolt</text>
+<text x="1216" y="192">keralora &#183; flowen</text>
+<text x="1216" y="215" fill="#b97a17">toronto, canada</text>
+</g>
 </svg>
