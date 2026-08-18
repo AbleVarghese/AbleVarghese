@@ -1,0 +1,27 @@
+{
+ "local": {
+  "licentric": "/path/to/licentric",
+  "LawyerServed": "/path/to/LawyerServed",
+  "solveright": "/path/to/solveright",
+  "solvemax": "/path/to/solvemax",
+  "ArgusTest": "/path/to/ArgusTest",
+  "shelljolt": "/path/to/shelljolt",
+  "keralora": "/path/to/keralora",
+  "relay": "/path/to/relay",
+  "switchboardOS": "/path/to/switchboardOS",
+  "ops-dashboard": "/path/to/ops-dashboard",
+  "local-gitlab": "/path/to/local-gitlab",
+  "estate-network": "/path/to/estate-network",
+  "Flowen": "/path/to/Flowen",
+  "settlement-pdf": "/path/to/settlement-pdf",
+  "claude-config": "/path/to/claude-config",
+  "Dwellium": "/path/to/Dwellium",
+  "ios-claude-toolkit": "/path/to/ios-claude-toolkit",
+  "Provenance-First-Wiki": "/path/to/Provenance-First-Wiki"
+ },
+ "mirrors": {
+  "Devrule.ai": "/path/to/mirrors/Devrule.ai.git",
+  "Spinehedge": "/path/to/mirrors/Spinehedge.git",
+  "Scrapos": "/path/to/mirrors/Scrapos.git"
+ }
+}

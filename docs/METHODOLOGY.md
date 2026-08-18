@@ -29,3 +29,30 @@ final LOC (1.27M) because code gets rewritten; both numbers are stated. Commit d
 they contain: multi-day efforts often land in one commit, so recorded active days (201) are a lower
 bound on true working days and single-day spikes are usually batch landings. The daily chart uses a
 square-root scale, stated on the chart, so median days stay visible next to the 194K peak.
+
+
+---
+
+## Revision, 2026-08-17 (v2 methodology)
+
+Numbers were re-derived across **21 repositories** (up from 15) after three of the previously
+commits-only repos became locally auditable and two new projects landed. The counting rules were
+also tightened, so the change reflects both new work and a stricter method:
+
+| Rule | v1 | v2 |
+|---|---|---|
+| Generated tool/agent state (`.claude/persistence/`, `snapshot-*.json`, `recovery-*.json`, `*.wal`, work-history dumps) | counted | **excluded** |
+| Vendored/archived duplicate trees inside a repo | counted | **excluded** |
+| Identical file contents appearing at several paths | counted once per path | **counted once**, deduplicated by git blob hash |
+| Daily "lines delivered" | every changed file | **authored extensions only** (code + Markdown) |
+
+The v2 rules were adopted after an audit found a monorepo contributing 150M apparent added lines,
+almost all of it committed agent-state JSON. That figure was never published; it was caught by
+sanity-checking the per-repo table before publication.
+
+**Current figures:** 8,533 commits · 1.77M lines in production · 5.2M lines delivered ·
+2,553 test files · 2,873 docs (716K lines) · 262 active days · ~3,050 hours ·
+median 9,964 lines per active day · longest streak 86 days · COCOMO-81 ~515 person-years.
+
+Excluded by choice: the profile repository and portfolio site themselves, and two third-party
+checkouts. Recovery duplicates of an existing repo are excluded to avoid double counting.

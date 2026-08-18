@@ -9,7 +9,7 @@ def api(path):
                  "Accept": "application/vnd.github+json"})
     return json.load(urllib.request.urlopen(req))
 
-repos = api("/users/AbleVarghese/repos?sort=pushed&per_page=15&type=owner")
+repos = api("/users/AbleVarghese/repos?sort=pushed&per_page=100&type=owner")
 lines = []
 for r in repos:
     if r["fork"] or r["name"] in ("AbleVarghese", ".github") or r["archived"]: continue

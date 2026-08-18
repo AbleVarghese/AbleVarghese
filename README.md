@@ -43,6 +43,21 @@ computed from git history, not claimed.
 | **[ShellJolt](https://shelljolt.com)** | macOS cockpit for AI coding CLIs. Cost, context, usage-limits, and model in one live line; stops OOM freezes before they happen | Rust · Ed25519 licensing · adaptive per-session memory engine · cross-CLI (Claude/Codex/Gemini/Grok) |
 | **[Keralora](https://keralora.com)** | Invite-only B2B spice-trade platform, Kerala to Canada, with complete buyer↔seller anonymity | Three-wall anonymity architecture (DAL + Postgres RLS + document redaction) · anonymity test suite in CI |
 
+## Published research
+
+**[The Provenance-First Wiki](https://github.com/AbleVarghese/Provenance-First-Wiki)** · August 2026 · [DOI: 10.5281/zenodo.21862190](https://doi.org/10.5281/zenodo.21862190)
+
+*Why the LLM wiki pattern breaks past a thousand files, and the five invariants that fix it.*
+
+A design paper answering Andrej Karpathy's [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+pattern with the case it cannot survive at scale. 310 catalogued sources across information retrieval,
+agent memory, archival science, and cognitive psychology. Eight candidate architectures scored under
+locked weights (pairwise consistency ratio 0.009), a 20,000-run Monte Carlo sensitivity sweep,
+failure-mode analysis, minimax regret, and an analysis of competing hypotheses. The full decision
+record is published with the paper, including the section stating when you should ignore it.
+
+> A quote is a pointer, not a copy. Almost everything else in the paper is a consequence of that sentence.
+
 ## Engineering infrastructure I built to build them
 
 <picture>
@@ -61,11 +76,11 @@ The machine that builds the products:
 - **[ios-claude-toolkit](https://github.com/AbleVarghese/ios-claude-toolkit)**: 22 battle-tested Claude Code skills for iOS, distilled from 75+ production sessions. **Open source (MIT)**
 - **Flowen**: iOS money-transfer app. Swift 6, MVVM, **2,838 test methods**, 9-stage CI pipeline
 - **Devrule.ai**: enterprise AI-rules middleware that validates code changes against configurable rules before AI tools (Claude Code, Cursor, Copilot) can execute them. Multi-tenant RLS, Stripe billing, 40+ test suites
-- **Dwellium**: trust-first hotel booking platform. NestJS monorepo, **294-table** global schema, Amadeus + Stripe integration, web + React Native mobile
+- **Dwellium**: trust-first hotel booking platform. NestJS monorepo, **294-table** global schema, **469K lines** across web, mobile, and backend, Amadeus + Stripe integration
 
 ## The portfolio, measured
 
-*Computed from git history across 20 repositories. Script and methodology published here
+*Computed from git history across 21 repositories. Script and methodology published here
 ([`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)): every number is checkable.*
 
 <picture>
@@ -73,7 +88,7 @@ The machine that builds the products:
   <img alt="3.0M lines delivered, 10 platforms in production, about 364 COCOMO person-years. 8,010 commits, 1.27M lines in production, 2,412 test files, 554K doc lines. 254 active days, about 2,900 hours, 49 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
 </picture>
 
-COCOMO-81 prices this codebase at **~364 person-years**. One person shipped it in ~2,900 hours.
+COCOMO-81 prices this codebase at **~515 person-years**. One person shipped it in ~3,050 hours.
 **That multiplier is the point.**
 
 *The public ledger only. 2014–2023 adds an estimated **5,000+ commits across 20+ enterprise
@@ -106,6 +121,10 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 <!-- shipped starts -->
 - **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: Ops dashboard: monitors a project's git/tests/agents/lanes, serves at… <sub>(2026-08-16)</sub>
 - **[Provenance-First-Wiki](https://github.com/AbleVarghese/Provenance-First-Wiki)**: Why the LLM Wiki pattern breaks past 1,000 files, and the five… <sub>(2026-08-10)</sub>
+- **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)**: Portfolio: ablevarghese.github.io <sub>(2026-08-09)</sub>
+- **[keralora.com](https://github.com/AbleVarghese/keralora.com)**: Invite-only B2B spice trade, Kerala → Canada, with three-wall… <sub>(2026-08-09)</sub>
+- **[shelljolt.com](https://github.com/AbleVarghese/shelljolt.com)**: The cockpit for AI coding CLIs: cost, context, limits, model in one… <sub>(2026-08-09)</sub>
+- **[argustest.dev](https://github.com/AbleVarghese/argustest.dev)**: iOS device monitoring + AI-assisted debugging via MCP for Claude Code… <sub>(2026-08-09)</sub>
 
 <sub>*Auto-generated 2026-08-17 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
 <!-- shipped ends -->
