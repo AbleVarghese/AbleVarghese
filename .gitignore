@@ -1,2 +1,7 @@
 docs-private/
 showcases/
+
+# The real repo map: local machine paths and internal working-directory names.
+# Never published. docs/repos.example.json is the sanitized public template.
+docs/repos.local.json
+mirrors/
