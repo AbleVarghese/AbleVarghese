@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-label="Lines of code by language, TypeScript leading at 1225 thousand">
-<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101418"/><stop offset="1" stop-color="#0b0e11"/></linearGradient></defs>
-<rect width="1280" height="350" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="349" fill="none" stroke="#232b34"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-label="Lines of code by language: TypeScript 1232K, Swift 184K, JavaScript 127K, Shell 75K, Python 71K, SQL 50K">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101418"/><stop offset="1" stop-color="#0b0e11"/></linearGradient>
+</defs>
+<rect width="1280" height="350" fill="url(#g)"/>
+<rect x="0.5" y="0.5" width="1279" height="349" fill="none" stroke="#232b34"/>
 <text x="64" y="40" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#eceff2">WHAT IT&#8217;S WRITTEN IN</text>
-<text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">1.77M lines in production across 18 audited repos</text>
+<text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">1.80M lines in production across 18 audited repos</text>
 <text x="216" y="101" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">TypeScript</text>
 <rect x="230" y="84" width="900" height="24" rx="3" fill="#f2bc6a"/>
-<text x="1142" y="101" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">1225K</text>
+<text x="1142" y="101" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">1233K</text>
 <text x="216" y="135" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">Swift</text>
 <rect x="230" y="118" width="135" height="24" rx="3" fill="#e8a33d"/>
 <text x="377" y="135" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">184K</text>
 <text x="216" y="169" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">JavaScript</text>
-<rect x="230" y="152" width="94" height="24" rx="3" fill="#d18f2b"/>
-<text x="336" y="169" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">127K</text>
+<rect x="230" y="152" width="93" height="24" rx="3" fill="#d18f2b"/>
+<text x="335" y="169" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">128K</text>
 <text x="216" y="203" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">Shell</text>
-<rect x="230" y="186" width="50" height="24" rx="3" fill="#b97a17"/>
-<text x="292" y="203" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">68K</text>
+<rect x="230" y="186" width="55" height="24" rx="3" fill="#b97a17"/>
+<text x="297" y="203" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">75K</text>
 <text x="216" y="237" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">Python</text>
-<rect x="230" y="220" width="48" height="24" rx="3" fill="#9c660f"/>
-<text x="290" y="237" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">66K</text>
+<rect x="230" y="220" width="52" height="24" rx="3" fill="#9c660f"/>
+<text x="294" y="237" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">71K</text>
 <text x="216" y="271" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#93a0ac" text-anchor="end">SQL</text>
 <rect x="230" y="254" width="37" height="24" rx="3" fill="#7f530a"/>
 <text x="279" y="271" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#eceff2">50K</text>

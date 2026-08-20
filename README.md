@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Able Varghese, Application Architect. Ships production platforms end to end." src="assets/banner-light.svg" width="100%">
+  <img alt="Able Varghese, Application Architect. Complete platforms, shipped end to end. 5.23M lines delivered, 10 platforms, 8,785 commits, 2,573 test files, agentic engineering." src="assets/banner-light.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -62,7 +62,7 @@ record is published with the paper, including the section stating when you shoul
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
-  <img alt="Diagram: one engineer operates an agentic engineering system (orchestration, adaptive concurrency, live monitoring, self-hosted CI, data supply) that ships ten production platforms" src="assets/system-light.svg" width="100%">
+  <img alt="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 8,785 commits, about 3,172 hours, COCOMO-priced at about 522 person-years." src="assets/system-light.svg" width="100%">
 </picture>
 
 The machine that builds the products:
@@ -85,10 +85,10 @@ The machine that builds the products:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="5.2M lines delivered, 10 platforms shipped, about 515 COCOMO person-years. 8,533 commits, 1.77M lines in production, 2,553 test files, 716K doc lines. 262 active days, about 3,050 hours, 49 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
+  <img alt="5.23M lines delivered, 10 platforms shipped, about 522 COCOMO person-years. 8,785 commits, 1.80M lines in production, 2,573 test files, 731K doc lines. 266 active days, about 3,172 hours, 48 percent between 5pm and 2am" src="assets/stats-light.svg" width="100%">
 </picture>
 
-COCOMO-81 prices this codebase at **~515 person-years**. One person shipped it in ~3,050 hours.
+COCOMO-81 prices this codebase at **~522 person-years**. One person shipped it in ~3,172 hours.
 **That multiplier is the point.**
 
 *The public ledger only. 2014–2023 adds an estimated **5,000+ commits across 20+ enterprise
@@ -97,7 +97,7 @@ never touched GitHub.*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/daily-lines-dark.svg">
-  <img alt="Lines of code delivered per day, December 2024 to August 2026: 5.2 million lines added, median 9,964 per active day, longest streak 86 consecutive days" src="assets/daily-lines-light.svg" width="100%">
+  <img alt="Lines of code delivered per day, December 2024 to August 2026: 5.23M lines added, median 9,844 per active day, longest streak 93 consecutive days" src="assets/daily-lines-light.svg" width="100%">
 </picture>
 
 <sub>*Lines attribute to commit dates: work often lands days after it happens, so active-day counts
@@ -107,13 +107,13 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hours-dark.svg">
-  <img alt="Commits by hour of day: 49 percent land between 5pm and 2am, peaking at 7pm" src="assets/hours-light.svg" width="100%">
+  <img alt="Commits by hour of day: 48 percent land between 5pm and 2am, peaking at 20:00" src="assets/hours-light.svg" width="100%">
 </picture>
 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img alt="Lines of code by language: TypeScript 1225K, Swift 184K, JavaScript 127K, Shell 68K, Python 66K, SQL 50K" src="assets/languages-light.svg" width="100%">
+  <img alt="Lines of code by language: TypeScript 1232K, Swift 184K, JavaScript 127K, Shell 75K, Python 71K, SQL 50K" src="assets/languages-light.svg" width="100%">
 </picture>
 
 ## Recently shipped

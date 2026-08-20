@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="468" viewBox="0 0 1280 468" role="img" aria-label="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 8,533 commits, about 3,050 hours, COCOMO-priced at about 515 person-years.">
-<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101418"/><stop offset="1" stop-color="#0b0e11"/></linearGradient></defs>
-<rect width="1280" height="468" fill="url(#g)"/><rect x="0.5" y="0.5" width="1279" height="467" fill="none" stroke="#232b34"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="468" viewBox="0 0 1280 468" role="img" aria-label="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 8,785 commits, about 3,172 hours, COCOMO-priced at about 522 person-years.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101418"/><stop offset="1" stop-color="#0b0e11"/></linearGradient>
+</defs>
+<rect width="1280" height="468" fill="url(#g)"/>
+<rect x="0.5" y="0.5" width="1279" height="467" fill="none" stroke="#232b34"/>
 <text x="64" y="40" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#eceff2">HOW ONE PERSON SHIPS TEN PLATFORMS</text>
 <text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">the agentic engineering system underneath the portfolio</text>
 <rect x="64" y="92" width="112" height="48" rx="4" fill="#151a20" stroke="#e8a33d" stroke-width="1.4"/>
@@ -63,5 +65,5 @@
 <text x="64" y="364" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#93a0ac">operated by</text>
 <rect x="64" y="378" width="1152" height="62" rx="6" fill="none" stroke="#e8a33d" stroke-width="1.4"/>
 <text x="88" y="406" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#eceff2">ONE ENGINEER</text>
-<text x="88" y="428" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">8,533 commits &#183; ~3,050 hours &#183; nights + weekends &#183; COCOMO prices the output at ~515 person-years</text>
+<text x="88" y="428" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#93a0ac">8,785 commits &#183; ~3,172 hours &#183; nights + weekends &#183; COCOMO prices the output at ~522 person-years</text>
 </svg>
