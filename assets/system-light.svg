@@ -61,7 +61,7 @@
 <text x="767.8" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#5b6470">self-hosted $0 CI/CD</text>
 <rect x="978.4" y="244" width="213.6" height="66" rx="4" fill="none" stroke="#d8d3c8"/>
 <text x="990.4" y="270" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#20242a">Scrapos</text>
-<text x="990.4" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#5b6470">64-scraper data supply</text>
+<text x="990.4" y="293" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#5b6470">queue-based data supply</text>
 <text x="64" y="364" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#5b6470">operated by</text>
 <rect x="64" y="378" width="1152" height="62" rx="6" fill="none" stroke="#b97a17" stroke-width="1.4"/>
 <text x="88" y="406" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#20242a">ONE ENGINEER</text>

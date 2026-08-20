@@ -222,7 +222,10 @@ def system(dk):
              ("Adaptive concurrency", "circuit breakers, backoff"),
              ("ops-dashboard", "live fleet monitor, MIT"),
              ("local-gitlab", "self-hosted $0 CI/CD"),
-             ("Scrapos", "64-scraper data supply")]
+             # No count here on purpose: nothing derives a scraper count from the audit
+             # JSON, so a number in this chip can only ever drift. The README bullet
+             # carries it, counted from the repo, in exactly one place.
+             ("Scrapos", "queue-based data supply")]
     # Same solve for the chip row, so its right inset matches its 24px left inset.
     cg, CY, CH = 9, SY + 48, 66
     cw = (1152 - 48 - 4 * cg) / 5
