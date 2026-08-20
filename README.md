@@ -39,7 +39,7 @@ computed from git history, not claimed.
 | **[LawyerServed](https://lawyerserved.com)** | North America's transparent legal directory: **1.47M+ verified lawyer profiles** in a double-blind two-sided marketplace | Next.js 16 · tRPC · Drizzle · Supabase RLS · Meilisearch at 1M+ scale · Stripe · per-jurisdiction compliance rule-packs |
 | **[SolveRight](https://solveright.ai)** | Decision intelligence. **155 decision frameworks** run simultaneously with deterministic 0–100 scoring and contradiction detection | Three-phase AI+deterministic hybrid scoring engine · <100ms sensitivity analysis · 7 export formats |
 | **[solvemax](https://solvemax.solveright.ai)** | A verdict with receipts: decisions interrogated, scored, red-teamed through **5,000 seeded Monte-Carlo futures**, then given a blind second-pass audit | Next.js · multi-model LLM failover chain · Stripe · seeded deterministic simulation |
-| **[ArgusTest](https://argustest.dev)** | iOS device monitoring and AI-assisted debugging for Claude Code / Cursor users. 100% app-agnostic | MCP integration · HMAC-verified webhooks · SHA-256 error dedup (78% noise reduction) · self-healing daemons |
+| **[ArgusTest](https://argustest.dev)** | iOS device monitoring and AI-assisted debugging for Claude Code / Cursor users. 100% app-agnostic | MCP integration · HMAC-verified webhooks · SHA-256 error-signature dedup · self-healing daemons |
 | **[ShellJolt](https://shelljolt.com)** | macOS cockpit for AI coding CLIs. Cost, context, usage-limits, and model in one live line; stops OOM freezes before they happen | Rust · Ed25519 licensing · adaptive per-session memory engine · cross-CLI (Claude/Codex/Gemini/Grok) |
 | **[Keralora](https://keralora.com)** | Invite-only B2B spice-trade platform, Kerala to Canada, with complete buyer↔seller anonymity | Three-wall anonymity architecture (DAL + Postgres RLS + document redaction) · anonymity test suite in CI |
 
@@ -68,15 +68,16 @@ record is published with the paper, including the section stating when you shoul
 The machine that builds the products:
 
 - **Multi-agent orchestration doctrine**: model-tiered routing (reason/build/research), adaptive concurrency with circuit breakers, orchestrator-gated acceptance where no agent's work merges until independently re-verified
-- **Scrapos**: standalone data-supply engine. 64 scrapers, queue-based pipeline, self-healing, drift-gated auto-redeploy
+- **Scrapos**: standalone data-supply engine. 73 scrapers, queue-based pipeline, self-healing, drift-gated auto-redeploy
 - **SwitchboardOS**: control plane for LLM cost, observability, and agent governance
 - **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: zero-dependency live SDLC monitor that watches every project's agents, tests, and git state simultaneously over SSE. **Open source (MIT)**
 - **local-gitlab**: fully self-hosted GitLab CE + runner. $0/month CI/CD any project plugs into
 - **Relay**: portable partner-marketing engine (attribution, commissions, payouts) that integrates with any product from zero code upward
 - **[ios-claude-toolkit](https://github.com/AbleVarghese/ios-claude-toolkit)**: 22 battle-tested Claude Code skills for iOS, distilled from 75+ production sessions. **Open source (MIT)**
-- **Flowen**: iOS money-transfer app. Swift 6, MVVM, **2,838 test methods**, 9-stage CI pipeline
+- **Flowen**: iOS money-transfer app. Swift 6, MVVM, **3,349 test methods**, 9-stage CI pipeline
 - **Devrule.ai**: enterprise AI-rules middleware that validates code changes against configurable rules before AI tools (Claude Code, Cursor, Copilot) can execute them. Multi-tenant RLS, Stripe billing, 40+ test suites
-- **Dwellium**: trust-first hotel booking platform. NestJS monorepo, **294-table** global schema, **469K lines** across web, mobile, and backend, Amadeus + Stripe integration
+- **Dwellium**: trust-first hotel booking platform. NestJS monorepo, **469K lines** across web, mobile, and backend, Amadeus + Stripe integration
+- **estate-network**: the machine layer under all of it. One repo, three deployment targets (Mac mini, laptops, router), 10 scheduled jobs, install scripts per target, so no critical automation depends on any one machine being awake
 
 ## The portfolio, measured
 

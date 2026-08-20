@@ -39,6 +39,9 @@ F = {
     "delivery":    str(A["delivery_days"]),
     "repos":       str(A["repos"]),
     "loc_repos":   str(LOC_REPOS),
+    "hours_lo":    f'{A["hours_lo"]:,}',
+    "peak_k":      f'{A["peak_day_lines"]//1000}K',
+    "commit_only": str(A["repos"] - LOC_REPOS),
     "platforms":   "10",
     "end_month":   datetime.date.fromisoformat(A["span"][-10:]).strftime("%B %Y"),
     "start_month": datetime.date.fromisoformat(A["span"][:10]).strftime("%B %Y"),
@@ -200,7 +203,10 @@ def system(dk):
     p.append(f'<text x="64" y="62" {MONO} font-size="13.5" font-weight="600" fill="{t["ink3"]}">the agentic engineering system underneath the portfolio</text>')
     prods = ["Licentric", "LawyerServed", "SolveRight", "solvemax", "ArgusTest",
              "ShellJolt", "Keralora", "Flowen", "Devrule.ai", "Dwellium"]
-    bw, gap, BY, BH = 112, 7.6, 92, 48
+    # The product row must end exactly where every panel below it ends (x=1216),
+    # so box width is solved from the band rather than picked: 10*bw + 9*gap = 1152.
+    gap, BY, BH = 7.6, 92, 48
+    bw = (1152 - 9 * gap) / 10
     for i, n in enumerate(prods):
         px = 64 + i * (bw + gap)
         p.append(f'<rect x="{px:.0f}" y="{BY}" width="{bw}" height="{BH}" rx="4" fill="{t["card"]}" stroke="{t["amber"]}" stroke-width="1.4"/>')
@@ -217,7 +223,9 @@ def system(dk):
              ("ops-dashboard", "live fleet monitor, MIT"),
              ("local-gitlab", "self-hosted $0 CI/CD"),
              ("Scrapos", "64-scraper data supply")]
-    cw, cg, CY, CH = 218, 9, SY + 48, 66
+    # Same solve for the chip row, so its right inset matches its 24px left inset.
+    cg, CY, CH = 9, SY + 48, 66
+    cw = (1152 - 48 - 4 * cg) / 5
     for i, (a, b) in enumerate(chips):
         cx = 88 + i * (cw + cg)
         p.append(f'<rect x="{cx}" y="{CY}" width="{cw}" height="{CH}" rx="4" fill="none" stroke="{t["border"]}"/>')
