@@ -127,7 +127,7 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 - **[shelljolt.com](https://github.com/AbleVarghese/shelljolt.com)**: The cockpit for AI coding CLIs: cost, context, limits, model in one… <sub>(2026-08-09)</sub>
 - **[argustest.dev](https://github.com/AbleVarghese/argustest.dev)**: iOS device monitoring + AI-assisted debugging via MCP for Claude Code… <sub>(2026-08-09)</sub>
 
-<sub>*Auto-generated 2026-09-02 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
+<sub>*Auto-generated 2026-09-03 by [update_readme.py](scripts/update_readme.py). Derived, never hand-edited.*</sub>
 <!-- shipped ends -->
 
 ## Before this
