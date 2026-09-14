@@ -9,14 +9,14 @@ read, so no figure here can drift out of step with the profile. Do not hand-edit
 <!-- method start -->
 | Metric | Method |
 |---|---|
-| Commits (8,785) | `git log --all --format=%at\|%ae\|%an` across 21 original (non-fork) repositories, December 2024 to August 2026 |
-| Active days (266) | Distinct calendar dates among all commit timestamps |
-| Hours (~2,026 to ~3,172) | Session clustering (the git-hours algorithm): commits 120 min apart or less form a session; the range is the sum of intra-session gaps plus a per-session start adjustment of 30 min (low) or 120 min (high). An estimate of orchestration wall-clock, labeled as such |
-| Lines of code (1.80M) | `git ls-files` on the 18 locally-present repos, code extensions only, excluding dependencies, lockfiles, build output and vendored code. Includes SQL, config and styles, because it is *tracked, authored* code rather than business logic alone |
-| Test files (2,573) | Files matching test and spec naming conventions among counted code files |
-| Docs (2,930 files / 731K lines) | Markdown census, same exclusions |
+| Commits (12,424) | `git log --all --format=%at\|%ae\|%an` across 21 original (non-fork) repositories, December 2024 to September 2026 |
+| Active days (293) | Distinct calendar dates among all commit timestamps |
+| Hours (~2,492 to ~3,881) | Session clustering (the git-hours algorithm): commits 120 min apart or less form a session; the range is the sum of intra-session gaps plus a per-session start adjustment of 30 min (low) or 120 min (high). An estimate of orchestration wall-clock, labeled as such |
+| Lines of code (1.86M) | `git ls-files` on the 18 locally-present repos, code extensions only, excluding dependencies, lockfiles, build output and vendored code. Includes SQL, config and styles, because it is *tracked, authored* code rather than business logic alone |
+| Test files (2,479) | Files matching test and spec naming conventions among counted code files |
+| Docs (3,147 files / 777K lines) | Markdown census, same exclusions |
 | Night and evening share (48%) | Commits with author-hour at or after 17:00, or before 02:00 |
-| COCOMO ~522 person-years | COCOMO-81 organic model, PM = 2.4 x KLOC^1.05 on measured LOC. A model of *conventional hand-written* effort, cited precisely because agentic engineering breaks its assumptions |
+| COCOMO ~543 person-years | COCOMO-81 organic model, PM = 2.4 x KLOC^1.05 on measured LOC. A model of *conventional hand-written* effort, cited precisely because agentic engineering breaks its assumptions |
 
 **Honest boundaries:** hour figures are estimates from commit patterns, not timesheets. LOC is
 measured on the 18 repos present locally; 3 more are counted for commits only. Work predating
@@ -27,10 +27,10 @@ December 2024, such as an earlier fintech prototype, sits outside these historie
 part of the git-measured numbers above. Those repositories are corporate, private and contractually
 confidential, so they cannot be published or independently audited here.
 
-**Lines delivered per day (5.23M added):** `git log --all --numstat` across the locally audited
+**Lines delivered per day (5.85M added):** `git log --all --numstat` across the locally audited
 repos, additions summed per author-date, with dependency, lockfile and build paths excluded.
-Additions exceed final LOC (1.80M) because code gets rewritten; both numbers are stated. Commit
-dates lag the work they contain: multi-day efforts often land in one commit, so the 264 recorded
+Additions exceed final LOC (1.86M) because code gets rewritten; both numbers are stated. Commit
+dates lag the work they contain: multi-day efforts often land in one commit, so the 290 recorded
 active delivery days are a lower bound on true working days, and single-day spikes are usually
 batch landings. The daily chart uses a square-root scale, stated on the chart, so median days stay
 visible next to the 590K peak.
@@ -85,7 +85,7 @@ The last two are the point. A portfolio that says every number is checkable has 
 that are not, including the flattering ones. Both were replaced with facts the audit script produces.
 
 <!-- figures start -->
-**Current figures:** 8,785 commits · 1.80M lines in production · 5.23M lines delivered ·
-2,573 test files · 2,930 docs (731K lines) · 266 active days · ~3,172 hours ·
-median 9,844 lines per active day · longest streak 93 days · COCOMO-81 ~522 person-years.
+**Current figures:** 12,424 commits · 1.86M lines in production · 5.85M lines delivered ·
+2,479 test files · 3,147 docs (777K lines) · 293 active days · ~3,881 hours ·
+median 10,469 lines per active day · longest streak 98 days · COCOMO-81 ~543 person-years.
 <!-- figures end -->
