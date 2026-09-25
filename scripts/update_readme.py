@@ -3,6 +3,8 @@
 Derive-never-hand-maintain: this section is never edited by hand (simonw pattern)."""
 import json, re, urllib.request, os, datetime, subprocess
 
+API_TIMEOUT_SECONDS = 30
+
 def get_token():
     token = os.environ.get("GITHUB_TOKEN")
     if token:
@@ -21,7 +23,7 @@ def api(path):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(f"https://api.github.com{path}", headers=headers)
-    return json.load(urllib.request.urlopen(req))
+    return json.load(urllib.request.urlopen(req, timeout=API_TIMEOUT_SECONDS))
 
 repos = api("/users/AbleVarghese/repos?sort=pushed&per_page=100&type=owner")
 lines = []

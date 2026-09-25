@@ -24,6 +24,9 @@ cd "$(dirname "$0")/.."
 SITE="${1:-$HOME/AbleVarghese.github.io}"
 MAP="docs/repos.local.json"
 MIRRORS="mirrors"
+FETCH_TIMEOUT_SECONDS="${REFRESH_FETCH_TIMEOUT_SECONDS:-180}"
+MIRROR_FETCH_TIMEOUT_SECONDS="${REFRESH_MIRROR_FETCH_TIMEOUT_SECONDS:-300}"
+MIRROR_CLONE_TIMEOUT_SECONDS="${REFRESH_MIRROR_CLONE_TIMEOUT_SECONDS:-600}"
 
 [[ -f "$MAP" ]] || { echo "FATAL: $MAP missing. Copy docs/repos.example.json and fill in real paths."; exit 1; }
 
@@ -37,7 +40,7 @@ PY
   # Mac mini reachable through an SSH alias that does not resolve off-network, and
   # --all reports the whole fetch as failed even when GitHub succeeded. </dev/null
   # keeps git from consuming this loop's stdin.
-  timeout 30 git -C "$p" fetch origin --prune -q </dev/null 2>/dev/null || echo "  fetch failed: $p"
+  timeout -k 10 "$FETCH_TIMEOUT_SECONDS" git -C "$p" fetch origin --prune -q </dev/null 2>/dev/null || echo "  fetch failed: $p"
 done
 
 echo "==> 2/7 refreshing bare mirrors"
@@ -48,10 +51,10 @@ for k, v in json.load(open(sys.argv[1]))["mirrors"].items():
     print(k, v)
 PY
   if [[ -d "$path" ]]; then
-    timeout 45 git -C "$path" fetch origin --prune -q </dev/null 2>/dev/null || echo "  fetch failed: $name"
+    timeout -k 10 "$MIRROR_FETCH_TIMEOUT_SECONDS" git -C "$path" fetch origin --prune -q </dev/null 2>/dev/null || echo "  fetch failed: $name"
   else
     echo "  cloning $name"
-    timeout 120 gh repo clone "AbleVarghese/$name" "$path" -- --bare -q
+    timeout -k 10 "$MIRROR_CLONE_TIMEOUT_SECONDS" gh repo clone "AbleVarghese/$name" "$path" -- --bare -q
   fi
 done
 
@@ -67,7 +70,7 @@ cp assets/*.svg "$SITE/assets/"
 rm -f "$SITE/assets/banner-"*.svg   # the site header is HTML type, not the banner image
 
 echo "==> 6/7 updating recently-shipped section"
-python3 scripts/update_readme.py || echo "  update_readme skipped"
+python3 scripts/update_readme.py
 
 echo "==> 7/7 syncing the GitHub description"
 bash scripts/sync_profile_meta.sh
