@@ -5,3 +5,8 @@ showcases/
 # Never published. docs/repos.example.json is the sanitized public template.
 docs/repos.local.json
 mirrors/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class

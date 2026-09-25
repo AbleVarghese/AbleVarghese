@@ -120,7 +120,7 @@ is generated from the audit data itself, no third-party widgets.*</sub>
 ## Recently shipped
 
 <!-- shipped starts -->
-- **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)**: Portfolio: ablevarghese.github.io <sub>(2026-09-14)</sub>
+- **[AbleVarghese.github.io](https://github.com/AbleVarghese/AbleVarghese.github.io)**: Portfolio: ablevarghese.github.io <sub>(2026-09-25)</sub>
 - **[ops-dashboard](https://github.com/AbleVarghese/ops-dashboard)**: Ops dashboard: monitors a project's git/tests/agents/lanes, serves at… <sub>(2026-09-14)</sub>
 - **[Provenance-First-Wiki](https://github.com/AbleVarghese/Provenance-First-Wiki)**: Why the LLM Wiki pattern breaks past 1,000 files, and the five… <sub>(2026-08-10)</sub>
 - **[keralora.com](https://github.com/AbleVarghese/keralora.com)**: Invite-only B2B spice trade, Kerala → Canada, with three-wall… <sub>(2026-08-09)</sub>

@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
 """Regenerate the 'Recently shipped' section of README.md from live repo activity.
 Derive-never-hand-maintain: this section is never edited by hand (simonw pattern)."""
-import json, re, urllib.request, os, datetime
+import json, re, urllib.request, os, datetime, subprocess
+
+def get_token():
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        return token
+    try:
+        token = subprocess.check_output(["gh", "auth", "token"], text=True, stderr=subprocess.DEVNULL).strip()
+        if token:
+            return token
+    except Exception:
+        pass
+    return None
 
 def api(path):
-    req = urllib.request.Request(f"https://api.github.com{path}",
-        headers={"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
-                 "Accept": "application/vnd.github+json"})
+    headers = {"Accept": "application/vnd.github+json"}
+    token = get_token()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(f"https://api.github.com{path}", headers=headers)
     return json.load(urllib.request.urlopen(req))
 
 repos = api("/users/AbleVarghese/repos?sort=pushed&per_page=100&type=owner")
