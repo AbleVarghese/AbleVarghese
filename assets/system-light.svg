@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="468" viewBox="0 0 1280 468" role="img" aria-label="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 12,424 commits, about 3,881 hours, COCOMO-priced at about 543 person-years.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="468" viewBox="0 0 1280 468" role="img" aria-label="Diagram: one engineer operates an agentic engineering system of orchestration doctrine, adaptive concurrency, live fleet monitoring, self-hosted CI and data supply, which ships ten production platforms. 12,632 commits, about 3,986 hours, COCOMO-priced at about 547 person-years.">
 <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f3f1ec"/></linearGradient>
 </defs>
 <rect width="1280" height="468" fill="url(#g)"/>
@@ -65,5 +65,5 @@
 <text x="64" y="364" font-family="SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#5b6470">operated by</text>
 <rect x="64" y="378" width="1152" height="62" rx="6" fill="none" stroke="#b97a17" stroke-width="1.4"/>
 <text x="88" y="406" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#20242a">ONE ENGINEER</text>
-<text x="88" y="428" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#5b6470">12,424 commits &#183; ~3,881 hours &#183; nights + weekends &#183; COCOMO prices the output at ~543 person-years</text>
+<text x="88" y="428" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#5b6470">12,632 commits &#183; ~3,986 hours &#183; nights + weekends &#183; COCOMO prices the output at ~547 person-years</text>
 </svg>

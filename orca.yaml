@@ -1,0 +1,8 @@
+# Orca repository configuration for AbleVarghese-profile
+# GitHub Profile README (no build step or dependencies required)
+
+scripts:
+  setup: |
+    echo "✓ Profile repo ready"
+
+baseRef: origin/main

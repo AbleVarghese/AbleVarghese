@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-label="Lines of code by language: TypeScript 1200K, Swift 184K, Python 136K, JavaScript 125K, Shell 109K, SQL 49K">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-label="Lines of code by language: TypeScript 1203K, Swift 184K, Python 146K, JavaScript 125K, Shell 109K, SQL 49K">
 <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f3f1ec"/></linearGradient>
 </defs>
 <rect width="1280" height="350" fill="url(#g)"/>
 <rect x="0.5" y="0.5" width="1279" height="349" fill="none" stroke="#d8d3c8"/>
 <text x="64" y="40" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#20242a">WHAT IT&#8217;S WRITTEN IN</text>
-<text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#5b6470">1.86M lines in production across 18 audited repos</text>
+<text x="64" y="62" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#5b6470">1.87M lines in production across 18 audited repos</text>
 <text x="216" y="101" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#5b6470" text-anchor="end">TypeScript</text>
 <rect x="230" y="84" width="900" height="24" rx="3" fill="#8a5a10"/>
-<text x="1142" y="101" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">1201K</text>
+<text x="1142" y="101" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">1203K</text>
 <text x="216" y="135" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#5b6470" text-anchor="end">Swift</text>
 <rect x="230" y="118" width="138" height="24" rx="3" fill="#9c660f"/>
 <text x="380" y="135" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">184K</text>
 <text x="216" y="169" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#5b6470" text-anchor="end">Python</text>
-<rect x="230" y="152" width="103" height="24" rx="3" fill="#b97a17"/>
-<text x="345" y="169" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">137K</text>
+<rect x="230" y="152" width="110" height="24" rx="3" fill="#b97a17"/>
+<text x="352" y="169" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">147K</text>
 <text x="216" y="203" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#5b6470" text-anchor="end">JavaScript</text>
 <rect x="230" y="186" width="94" height="24" rx="3" fill="#cf8c1f"/>
 <text x="336" y="203" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#20242a">125K</text>
