@@ -17,11 +17,17 @@
   "claude-config": "/path/to/claude-config",
   "Dwellium": "/path/to/Dwellium",
   "ios-claude-toolkit": "/path/to/ios-claude-toolkit",
-  "Provenance-First-Wiki": "/path/to/Provenance-First-Wiki"
+  "Provenance-First-Wiki": "/path/to/Provenance-First-Wiki",
+  "pi-agent-harness": "/path/to/pi-agent-harness",
+  "Consult-Able": "/path/to/Consult-Able",
+  "ERP-AbleEstate": "/path/to/ERP-AbleEstate",
+  "Macmini-Management": "/path/to/Macmini-Management"
  },
  "mirrors": {
   "Devrule.ai": "/path/to/mirrors/Devrule.ai.git",
   "Spinehedge": "/path/to/mirrors/Spinehedge.git",
-  "Scrapos": "/path/to/mirrors/Scrapos.git"
+  "Scrapos": "/path/to/mirrors/Scrapos.git",
+  "Provenance-First-Wiki-paper": "/path/to/mirrors/Provenance-First-Wiki-paper.git",
+  "vigil-offbox-watchdog": "/path/to/mirrors/vigil-offbox-watchdog.git"
  }
 }

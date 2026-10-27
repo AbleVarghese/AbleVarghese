@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "note": "Tracked coverage source-of-truth for docs/forensics.py (issue #2). Every owner non-fork, non-archived GitHub repo is either included here or excluded with a rationale. Machine paths live in docs/repos.local.json (gitignored).",
+ "included": [
+  {
+   "name": "licentric",
+   "github": "AbleVarghese/licentric",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "LawyerServed",
+   "github": "AbleVarghese/LawyerServed",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "solveright",
+   "github": "AbleVarghese/solveright",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "solvemax",
+   "github": "AbleVarghese/solvemax",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "ArgusTest",
+   "github": "AbleVarghese/ArgusTest",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "shelljolt",
+   "github": "AbleVarghese/shelljolt",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "keralora",
+   "github": "AbleVarghese/keralora",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "relay",
+   "github": "AbleVarghese/RelayEngine",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "switchboardOS",
+   "github": "AbleVarghese/switchboardOS",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "ops-dashboard",
+   "github": "AbleVarghese/ops-dashboard",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "local-gitlab",
+   "github": "AbleVarghese/local-gitlab",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "estate-network",
+   "github": "AbleVarghese/estate-network",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Flowen",
+   "github": "AbleVarghese/Flowen",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "settlement-pdf",
+   "github": "AbleVarghese/settlement-pdf-conversion-retention-pipeline",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "claude-config",
+   "github": "AbleVarghese/claude-config",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Dwellium",
+   "github": "AbleVarghese/Dwellium",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "ios-claude-toolkit",
+   "github": "AbleVarghese/ios-claude-toolkit",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Provenance-First-Wiki",
+   "github": "AbleVarghese/Provenance-First-Wiki-launch",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "pi-agent-harness",
+   "github": "AbleVarghese/pi-agent-harness",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Consult-Able",
+   "github": "AbleVarghese/Consult-Able",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "ERP-AbleEstate",
+   "github": "AbleVarghese/ERP-AbleEstate",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Macmini-Management",
+   "github": "AbleVarghese/Macmini-Management",
+   "classification": "owned-primary",
+   "via": "local"
+  },
+  {
+   "name": "Devrule.ai",
+   "github": "AbleVarghese/Devrule.ai",
+   "classification": "owned-primary",
+   "via": "mirror"
+  },
+  {
+   "name": "Spinehedge",
+   "github": "AbleVarghese/Spinehedge",
+   "classification": "owned-primary",
+   "via": "mirror"
+  },
+  {
+   "name": "Scrapos",
+   "github": "AbleVarghese/Scrapos",
+   "classification": "owned-primary",
+   "via": "mirror"
+  },
+  {
+   "name": "Provenance-First-Wiki-paper",
+   "github": "AbleVarghese/Provenance-First-Wiki",
+   "classification": "owned-primary",
+   "via": "mirror"
+  },
+  {
+   "name": "vigil-offbox-watchdog",
+   "github": "AbleVarghese/vigil-offbox-watchdog",
+   "classification": "owned-primary",
+   "via": "mirror"
+  }
+ ],
+ "excluded": [
+  {
+   "name": "AbleVarghese-output",
+   "github": "AbleVarghese/AbleVarghese",
+   "classification": "generated-derivative",
+   "rationale": "profile README output repo; counting it would double-count generated figures"
+  },
+  {
+   "name": "AbleVarghese.github.io-output",
+   "github": "AbleVarghese/AbleVarghese.github.io",
+   "classification": "generated-derivative",
+   "rationale": "portfolio site output repo; generated from this audit"
+  },
+  {
+   "name": "Orca-management",
+   "github": "AbleVarghese/Orca-management",
+   "classification": "upstream-import",
+   "rationale": "GitHub repo is empty; local checkout holds upstream stablyai/orca history - counting it would claim others' work"
+  },
+  {
+   "name": "keralora.com",
+   "github": "AbleVarghese/keralora.com",
+   "classification": "generated-derivative",
+   "rationale": "public face of private keralora platform; generated showcase only"
+  },
+  {
+   "name": "shelljolt.com",
+   "github": "AbleVarghese/shelljolt.com",
+   "classification": "generated-derivative",
+   "rationale": "public face of private shelljolt product; generated showcase only"
+  },
+  {
+   "name": "argustest.dev",
+   "github": "AbleVarghese/argustest.dev",
+   "classification": "generated-derivative",
+   "rationale": "public face of private ArgusTest product; generated showcase only"
+  },
+  {
+   "name": "solveright.ai",
+   "github": "AbleVarghese/solveright.ai",
+   "classification": "generated-derivative",
+   "rationale": "public face of private solveright platform; generated showcase only"
+  },
+  {
+   "name": "lawyerserved.com",
+   "github": "AbleVarghese/lawyerserved.com",
+   "classification": "generated-derivative",
+   "rationale": "public face of private LawyerServed platform; generated showcase only"
+  },
+  {
+   "name": "licentric.com",
+   "github": "AbleVarghese/licentric.com",
+   "classification": "generated-derivative",
+   "rationale": "public face of private licentric product; generated showcase only"
+  },
+  {
+   "name": ".github",
+   "github": "AbleVarghese/.github",
+   "classification": "org-config",
+   "rationale": "account config repo; no product code"
+  },
+  {
+   "name": "homebrew-tap",
+   "github": "AbleVarghese/homebrew-tap",
+   "classification": "generated-derivative",
+   "rationale": "binary release tap for ArgusTest; generated release metadata only"
+  },
+  {
+   "name": "Devrule-ai",
+   "github": "AbleVarghese/Devrule-ai",
+   "classification": "superseded-duplicate",
+   "rationale": "earlier incarnation superseded by Devrule.ai; counting both would double-count"
+  }
+ ]
+}

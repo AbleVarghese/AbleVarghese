@@ -8,6 +8,45 @@ All estimates are labeled as estimates."""
 import subprocess, json, os, sys, collections, datetime, statistics
 
 CFG = json.load(open(sys.argv[1])); OUT = sys.argv[2]
+
+# --- Audit manifest: the tracked source-of-truth for coverage (issue #2) ---
+# docs/repos.local.json only maps names to machine paths. WHAT is counted is
+# decided by docs/audit-manifest.json (committed). Fail loud on any drift:
+# an included repo missing/mismatched, or an excluded repo present, aborts.
+MANIFEST_PATH = os.environ.get("AUDIT_MANIFEST") or os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "audit-manifest.json")
+def _gh_id(url):
+    import re
+    m = re.search(r"github\.com[:/]([^/]+)/([^/\s]+?)(?:\.git)?$", (url or "").strip())
+    return f"{m.group(1)}/{m.group(2)}" if m else None
+def _remote(path):
+    return subprocess.run(["git","-C",path,"remote","get-url","origin"],
+                          capture_output=True,text=True).stdout.strip()
+COVERAGE = None
+if os.path.exists(MANIFEST_PATH):
+    MAN = json.load(open(MANIFEST_PATH))
+    inc = {e["name"]: e for e in MAN.get("included", [])}
+    exc = {e["name"]: e for e in MAN.get("excluded", [])}
+    configured = {**CFG.get("local", {}), **CFG.get("mirrors", {})}
+    errors = []
+    for name in sorted(set(configured) - set(inc)):
+        errors.append(f"configured repo '{name}' is not in the audit manifest"
+                      + (" (listed EXCLUDED: " + exc[name].get("rationale","") + ")" if name in exc else ""))
+    for name in sorted(set(inc) - set(configured)):
+        errors.append(f"manifest-included repo '{name}' has no local checkout/mirror in the config")
+    for name, entry in inc.items():
+        if name not in configured: continue
+        path = configured[name]
+        if not os.path.isdir(path):
+            errors.append(f"included repo '{name}' path missing: {path}"); continue
+        got = _gh_id(_remote(path))
+        if got != entry["github"]:
+            errors.append(f"included repo '{name}' remote identity {got} != manifest {entry['github']}")
+    if errors:
+        print("AUDIT MANIFEST VIOLATION:", *errors, sep="\n  - ", file=sys.stderr); sys.exit(1)
+    COVERAGE = {"included": len(inc), "excluded": len(exc),
+                "excluded_names": sorted(exc)}
+
 CODE_EXT = {".ts",".tsx",".js",".jsx",".mjs",".cjs",".py",".swift",".rs",".sh",".zsh",
             ".sql",".go",".java",".kt",".c",".h",".cpp",".css",".scss",".html",".yml",
             ".yaml",".toml",".rb",".php"}
@@ -39,11 +78,15 @@ def hours(ts, gap=120, a=30, b=120):
     return round(base+sess*a/60,1), round(base+sess*b/60,1)
 
 def analyze(name,path,bare=False):
-    log=git(path,"log","--all","--format=%at|%an")
+    log=git(path,"log","--all","--format=%at|%an <%ae>")
     lines=[l for l in log.strip().splitlines() if l]
     if not lines: return None
     ts=[int(l.split("|")[0]) for l in lines]
-    r={"name":name,"commits":len(lines),"ts":ts}
+    authors=collections.Counter(l.split("|",1)[1] for l in lines if "|" in l)
+    r={"name":name,"commits":len(lines),"ts":ts,"authors":dict(authors)}
+    bare_repo = git(path,"rev-parse","--is-bare-repository").strip() == "true"
+    r["uncommitted_entries"] = 0 if bare_repo else len(
+        [l for l in git(path,"status","--porcelain").splitlines() if l])
     days={datetime.date.fromtimestamp(t) for t in ts}
     r["active_days"]=len(days); r["first"]=min(days).isoformat(); r["last"]=max(days).isoformat()
     r["hours_lo"],r["hours_hi"]=hours(ts)
@@ -105,7 +148,13 @@ loc=sum(r.get("loc",0) for r in res)
 kloc=loc/1000; pm=2.4*(kloc**1.05)
 hod=collections.Counter(datetime.datetime.fromtimestamp(t).hour for t in all_ts)
 tot_c=sum(hod.values()); ev=sum(v for h,v in hod.items() if h>=17 or h<2)
+all_authors=collections.Counter()
+for r in res: all_authors.update(r.pop("authors", {}))
 agg=dict(repos=len(res), commits=sum(r["commits"] for r in res),
+ coverage=COVERAGE,
+ commit_authors=dict(all_authors.most_common(15)),
+ uncommitted_repos=sum(1 for r in res if r.get("uncommitted_entries")),
+ uncommitted_entries=sum(r.get("uncommitted_entries",0) for r in res),
  commit_active_days=len({datetime.date.fromtimestamp(t) for t in all_ts}),
  span=f"{datetime.date.fromtimestamp(min(all_ts))} to {datetime.date.fromtimestamp(max(all_ts))}",
  hours_lo=round(sum(r["hours_lo"] for r in res)), hours_hi=round(sum(r["hours_hi"] for r in res)),

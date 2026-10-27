@@ -45,16 +45,19 @@ done
 
 echo "==> 2/7 refreshing bare mirrors"
 mkdir -p "$MIRRORS"
-python3 - "$MAP" <<'PY' | while read -r name path; do
+python3 - "$MAP" <<'PY' | while read -r name path repo; do
 import json, sys
+# Clone by the manifest's canonical GitHub repo, not the local key: a key may
+# differ from the repo name (e.g. Provenance-First-Wiki-paper -> Provenance-First-Wiki).
+man = {e["name"]: e["github"].split("/")[-1] for e in json.load(open("docs/audit-manifest.json"))["included"]}
 for k, v in json.load(open(sys.argv[1]))["mirrors"].items():
-    print(k, v)
+    print(k, v, man.get(k, k))
 PY
   if [[ -d "$path" ]]; then
     timeout -k 10 "$MIRROR_FETCH_TIMEOUT_SECONDS" git -C "$path" fetch origin --prune -q </dev/null 2>/dev/null || echo "  fetch failed: $name"
   else
     echo "  cloning $name"
-    timeout -k 10 "$MIRROR_CLONE_TIMEOUT_SECONDS" gh repo clone "AbleVarghese/$name" "$path" -- --bare -q
+    timeout -k 10 "$MIRROR_CLONE_TIMEOUT_SECONDS" gh repo clone "AbleVarghese/$repo" "$path" -- --bare -q
   fi
 done
 

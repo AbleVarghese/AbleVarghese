@@ -43,6 +43,7 @@ F = {
     "peak_k":      f'{A["peak_day_lines"]//1000}K',
     "commit_only": str(A["repos"] - LOC_REPOS),
     "platforms":   "10",
+    "uncommitted": str(A.get("uncommitted_repos", "?")),
     "end_month":   datetime.date.fromisoformat(A["span"][-10:]).strftime("%B %Y"),
     "start_month": datetime.date.fromisoformat(A["span"][:10]).strftime("%B %Y"),
 }

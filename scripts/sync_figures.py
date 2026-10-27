@@ -73,7 +73,12 @@ method = f"""| Metric | Method |
 | Night and evening share ({F["evening"]}%) | Commits with author-hour at or after 17:00, or before 02:00 |
 | COCOMO ~{F["cocomo"]} person-years | COCOMO-81 organic model, PM = 2.4 x KLOC^1.05 on measured LOC. A model of *conventional hand-written* effort, cited precisely because agentic engineering breaks its assumptions |
 
-**Honest boundaries:** hour figures are estimates from commit patterns, not timesheets. LOC is
+**Honest boundaries:** every figure is *committed repository-history delivery* (`git log --all` on the
+manifest-listed repos in `docs/audit-manifest.json`): it counts committed history, including
+agent/bot commits made under the owner's direction, and it excludes all uncommitted work
+({F["uncommitted"]} repos currently hold uncommitted changes, excluded, never counted as zero work).
+A date with no qualifying commit means no counted commit landed that day, never that no work happened.
+Hour figures are estimates from commit patterns, not timesheets. LOC is
 measured on the {F["loc_repos"]} repos present locally; {F["commit_only"]} more are counted for commits only. Work predating
 {F["start_month"]}, such as an earlier fintech prototype, sits outside these histories and is excluded.
 
